@@ -5,6 +5,10 @@ use Illuminate\Support\Facades\Route;
 
 require __DIR__.'/auth.php';
 
+// ROUTE PAR DEFAUT
+// PATTERN: /
+// CTRL: Posts
+// Action: index
 
 Route::get('/', function () {
     return view('templates.index');
